@@ -1,1 +1,1 @@
-console.log(numbers);
+p2.side = 150;
