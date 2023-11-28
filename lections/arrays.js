@@ -184,3 +184,4 @@ console.log(p2.area);
 // p2.side = 150;
 console.log(p2.side);
 console.log(p2.area);
+
