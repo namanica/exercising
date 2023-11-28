@@ -1,0 +1,21 @@
+let matrix = [
+  [6, -1, 7, 2 , 3],
+  [1, 2, 4, -8, 2],
+  [-6, 4, 8, 2, 0],
+];
+
+const max = (a, b) => (a > b ? a : b);
+
+const res = matrix
+.map(row => row.reduce(max))
+.reduce((acc, rowMax) => acc + rowMax);
+
+console.log(res);
+
+for (const i in matrix) {
+  const row = matrix[i];
+  for (const j in row) {
+    const col = row[j];
+    console.log(i, j, col);
+  }
+}
