@@ -7,5 +7,5 @@ function removeElement(array, item) {
   }
 }
 // console.log(array);
-console.log(removeElement(array, 5));
+console.log(removeElement(array, 7));
 
